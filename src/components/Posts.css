@@ -1,0 +1,28 @@
+.posts{
+  /* width: 80%; */
+  /* margin: auto; */
+  margin: 0;
+  padding-inline-start: 0px;
+}
+.posts__item{
+  border: 1px solid slategrey;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+  list-style-type:none;
+}
+.posts__item-title{
+  margin: 5px 0;
+}
+
+.posts__item-content{
+  font-size: 14px;
+}
+
+.posts__item-footer{
+  font-size: 12px;
+  color: slategrey;
+}
+.posts__item-author{
+  margin-right: 10px;
+}

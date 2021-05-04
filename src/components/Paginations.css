@@ -1,0 +1,19 @@
+.paginations{
+  display: flex;
+}
+
+.paginations__item{
+  border: 1px solid darkgray;
+  width: 25px;
+  line-height: 25px;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.paginations__item.active{
+  background:darksalmon;
+}
+
+.paginations__item.dot{
+  border: none;
+}
